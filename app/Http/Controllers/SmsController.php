@@ -7,9 +7,9 @@ use Illuminate\Support\Facades\Http;
 
 class SmsController extends Controller
 {
-    private $apiBase = "https://developer.taifamobile.co.ke";
-    private $username = "hawibryan04@gmail.com";
-    private $password = "Stealthypand555@";
+    private $apiBase = "API DEV URL HERE";
+    private $username = "TAIFAMOBILE USERNAME";
+    private $password = " ";
 
     // Show SMS dashboard page
     public function index()
